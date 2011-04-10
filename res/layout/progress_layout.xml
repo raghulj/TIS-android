@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:id="@+id/balloon_main_layout" android:layout_alignParentBottom="true"
+	android:layout_centerHorizontal="true" android:layout_height="wrap_content"
+	android:layout_width="match_parent" android:gravity="bottom"
+	android:layout_gravity="bottom" android:background="@drawable/popup_frame"
+	android:orientation="horizontal" android:baselineAligned="false">
+	<ProgressBar android:id="@+id/progressBar1"
+		android:layout_height="match_parent" android:layout_width="wrap_content"></ProgressBar>
+	<TextView android:layout_marginLeft="40dip" android:text="Loading..." android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_gravity="bottom" android:layout_marginBottom="10dip" android:gravity="center" android:layout_marginTop="10dip" android:layout_height="match_parent"></TextView>
+</LinearLayout>

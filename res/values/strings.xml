@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, StartApp!</string>
+	<string name="app_name">BTIS</string>
+	<string name="hotspot">Traffic Hotspots</string>
+	<string name="cameras">Traffic Cameras</string>
+	<string name="bus_information">City Bus</string>
+	<string name="fines">Vehicle fines</string>
+	<string name="rto">Vehicle info</string>
+	<string name="directions">Directions</string>
+</resources>

@@ -1,0 +1,44 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background_main"
+	android:gravity="center">
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:id="@+id/linearLayout1"
+		android:layout_width="wrap_content" android:orientation="vertical"
+		android:layout_centerHorizontal="true" android:gravity="center">
+		<Button android:id="@+id/traffic_hotspot" android:text="@string/hotspot"
+			android:textColor="#ffffff"
+			android:textSize="17sp" android:shadowColor="#777777" android:paddingTop="2dp"
+			android:shadowDx="2.0" android:shadowRadius="1.5" android:shadowDy="2.0"
+			android:background="@drawable/button" android:layout_width="180dip" android:layout_height="50dip"></Button>
+		<Button android:id="@+id/traffic_camera" android:text="@string/cameras"
+			android:layout_height="wrap_content" android:textColor="#ffffff"
+			android:textSize="17sp" android:shadowColor="#777777" android:paddingTop="2dp"
+			android:shadowDx="2.0" android:shadowRadius="1.5" android:shadowDy="2.0"
+			android:background="@drawable/button" android:layout_width="180dip"></Button>
+		<Button android:layout_width="180dip" android:background="@drawable/button" android:text="@string/bus_information" android:shadowDy="2.0" android:shadowColor="#777777" android:textSize="17sp" android:id="@+id/bus_information" android:paddingTop="2dp" android:shadowDx="2.0" android:textColor="#ffffff" android:shadowRadius="1.5" android:layout_height="wrap_content"></Button>
+		<Button android:id="@+id/traffic_fines" android:text="@string/fines"
+			android:layout_height="wrap_content" android:background="@drawable/button"
+			android:textColor="#ffffff" android:textSize="17sp" android:paddingTop="2dp"
+			android:shadowColor="#777777" android:shadowDx="2.0"
+			android:shadowRadius="1.5" android:shadowDy="2.0"
+			android:layout_width="180dip"></Button>
+		<Button android:id="@+id/traffic_rto" android:text="@string/rto"
+			android:layout_height="wrap_content" android:background="@drawable/button"
+			android:textColor="#ffffff" android:textSize="17sp" android:paddingTop="2dp"
+			android:shadowColor="#777777" android:shadowDx="2.0"
+			android:shadowRadius="1.5" android:shadowDy="2.0"
+			android:layout_width="180dip" android:typeface="normal"></Button>
+		<!-- <Button android:id="@+id/directions" android:text="@string/directions" 
+			style="@android:style/Widget.Button.Inset" android:layout_height="wrap_content" 
+			android:background="@drawable/button_up" android:textColor="?android:attr/textColorSecondary" 
+			android:textAppearance="?android:attr/textAppearanceLargeInverse" android:layout_width="180dip"></Button> 
+			<Button android:id="@+id/locations" android:text="@string/directions" android:textColor="?android:attr/textColorSecondary" 
+			android:textAppearance="?android:attr/textAppearanceLargeInverse" android:layout_height="wrap_content" 
+			android:background="@drawable/button_up" android:layout_width="180dip"></Button> -->
+
+
+	</LinearLayout>
+</RelativeLayout>
+

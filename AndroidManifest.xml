@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.visualizeincode" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" >
+		<uses-library android:name="com.google.android.maps" />
+
+		<activity android:name="com.visualizeincode.views.CitySelectionListActivity" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.visualizeincode.views.VehicleDataActivity" android:theme="@style/CustomTheme" android:label="Vehicle Information">
+			<intent-filter>
+				<action android:name="android.intent.action.GET_CONTENT"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="com.visualizeincode.MapViewActivity" android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="com.visualizeincode.views.BusInformationActivity" android:theme="@style/CustomTheme" android:label="City Bus Information">
+			<intent-filter>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.INTERNET" />
+</manifest> 
